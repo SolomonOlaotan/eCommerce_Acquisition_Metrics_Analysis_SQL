@@ -1,8 +1,8 @@
-#Conversion Rate
+# Conversion Rate
 
-##This metric evaluates the fraction of users who actually registered from visitors
+## This metric evaluates the fraction of users who actually registered from visitors
 
-###The SQL query
+### The SQL query
 
 --conversion rate--
 
