@@ -4,7 +4,8 @@
 
 ###The SQL query
 
---conversion rate
+--conversion rate--
+
 WITH customer_orders AS (
   --find the number of customers who made an order
   SELECT
@@ -16,7 +17,7 @@ WITH customer_orders AS (
 ),
 total_users AS(
   SELECT
-    -- total number of registered customers
+    -- total number of registered customers--
     COUNT(*) AS total_users
   FROM
     bigquery-public-data.thelook_ecommerce.users u
